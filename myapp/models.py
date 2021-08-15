@@ -36,15 +36,3 @@ class Product_Images(models.Model):
    def __str__(self):
        return self.image_name
 
-'''
-class Position(models.Model):
-    title = models.CharField(max_length=50)
-    def __str__(self):
-        return self.title
-
-class Employee(models.Model):
-    fullname = models.CharField(max_length=100, null=False)
-    emp_code = models.CharField(max_length=5, null=False)
-    mobile = models.CharField(max_length=15, null=False)
-    position = models.ForeignKey(Position, on_delete=models.CASCADE)
-'''
